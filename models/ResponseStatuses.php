@@ -2,9 +2,7 @@
 
 namespace app\models;
 
-use Yii;
-
-class FileStatuses
+class ResponseStatuses
 {
 
     public static int $FILE_NOT_EXIST = 0;
@@ -13,4 +11,7 @@ class FileStatuses
 
     public static int $FILE_READY_FOR_NEXT = 11;
 
+    public static int $DECRYPTION_ERROR = 1001;
+
+    public static int $PHP_ERROR = 9999;
 }
